@@ -14,4 +14,22 @@
 
 body {
   font-family: "Norse", sans-serif;
+  font-size: 18px;
+  display: flex;
 }
+
+body > div{
+    border: 1px solid black;
+    height: 100vh;
+}
+
+body :first-child{
+    width: 33vw;
+}
+
+body :last-child{
+    width: 100vw;
+}
+
+
+
