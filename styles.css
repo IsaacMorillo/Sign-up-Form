@@ -84,3 +84,36 @@ h1 {
     font-size: 1.4rem;
     width: 700px
 }
+
+form {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    align-items: center;
+
+}
+
+.field {
+    max-width: 45%;
+    margin: 10px;
+}
+
+
+.field input {
+    max-width: 100%;
+}
+
+.field label{
+    padding: 5px;
+}
