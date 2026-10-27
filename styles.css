@@ -89,6 +89,7 @@ form {
     border: 1px solid black;
     padding: 10px;
     background-color: whitesmoke;
+    margin: 10px;
 }
 
 
@@ -101,6 +102,7 @@ fieldset {
     width: 100%;
     min-width: 0;
     align-items: center;
+    border: none;
 
 }
 
@@ -116,4 +118,22 @@ fieldset {
 
 .field label{
     padding: 5px;
+}
+
+button {
+    margin: 20px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color: rgb(131, 206, 130);
+    width: 25%;
+    margin: 15px;
+}
+
+.log-in{
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.log-in a{
+    font-family: 'Norse';
 }
