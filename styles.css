@@ -18,122 +18,128 @@ body {
   display: flex;
 }
 
-body > div{
-    border: 1px solid black;
-    height: 100vh;
+body > div {
+  border: 1px solid black;
+  height: 100vh;
 }
 
-body :first-child{
-    width: 33vw;
+body :first-child {
+  width: 33vw;
 }
 
-body :last-child{
-    width: 66vw;
+body :last-child {
+  width: 66vw;
 }
 
-.title-container{
-    position: relative;
-    background-image: url("./img/mythologyart-ai-generated-8546415_1920.png");
-    display: flex;
-    flex-direction: column;
-    justify-content: center
+.title-container {
+  position: relative;
+  background-image: url("./img/mythologyart-ai-generated-8546415_1920.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
-    font-size: 2.5rem;
-    text-align: center;
-    border: 1px solid black;
-    color: white;
-    height: 100px;
-    padding: 25px;
-    background: rgba(0, 0, 0, 0.25)
+  font-size: 2.5rem;
+  text-align: center;
+  border: 1px solid black;
+  color: white;
+  height: 100px;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.25);
 }
 
-.title-container > *{
-    color: white;
-    text-align: center;
+.title-container > * {
+  color: white;
+  text-align: center;
 }
-
 
 .title-container p {
-    position: absolute;
-    width: 100%;
-    bottom: 20px;
-    font-size: 1.2rem;
-    font-weight: bold;
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
-.title-container a{
-    color: chartreuse
+.title-container a {
+  color: chartreuse;
 }
 
-.form-container{
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(248, 248, 248);
+.form-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(248, 248, 248);
 }
 
-.info{
-    margin: 20px 0;
+.info {
+  margin: 20px 0;
 }
 
-.info > p{
-    margin: 10px;
-    font-size: 1.4rem;
-    width: 700px
+.info > p {
+  margin: 10px;
+  font-size: 1.4rem;
+  width: 700px;
 }
 
 form {
-    border: 1px solid black;
-    padding: 10px;
-    background-color: whitesmoke;
-    margin: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: whitesmoke;
+  margin: 10px;
 }
 
-
 fieldset {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100%;
-    min-width: 0;
-    align-items: center;
-    border: none;
-
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  align-items: center;
+  border: none;
 }
 
 .field {
-    max-width: 45%;
-    margin: 10px;
+  max-width: 45%;
+  margin: 10px;
 }
-
 
 .field input {
-    max-width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  max-width: 100%;
 }
 
-.field label{
-    padding: 5px;
+.field label {
+  padding: 5px;
 }
 
 button {
-    margin: 20px 10px;
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 10px;
-    background-color: rgb(131, 206, 130);
-    width: 25%;
-    margin: 15px;
+  margin: 20px 10px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  background-color: rgb(131, 206, 130);
+  width: 25%;
+  margin: 15px;
 }
 
-.log-in{
-    padding: 15px;
-    font-family: 'Times New Roman', Times, serif;
+.log-in {
+  padding: 15px;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.log-in a{
-    font-family: 'Norse';
+.log-in a {
+  font-family: "Norse";
+}
+
+.field input:focus{
+  outline: none;
+  border: 2px solid blue;
+}
+
+.field input:user-invalid{
+  border: 2px solid red;
 }
