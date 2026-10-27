@@ -76,6 +76,8 @@
               id="password"
               name="user-password"
               required
+              pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}"
+              title="La contraseña debe tener al menos 8 caracteres, una mayúscula, una minúscula, un número y un carácter especial."
             />
           </div>
           <div class="field">
@@ -86,6 +88,8 @@
               id="confirm-password"
               name="user-conf-password"
               required
+              pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}"
+              title="La contraseña debe tener al menos 8 caracteres, una mayúscula, una minúscula, un número y un carácter especial."
             />
           </div>
         </fieldset>
@@ -93,5 +97,6 @@
         <p class="log-in">Already have an account? <a href="">Log in</a></p>
       </form>
     </div>
+    <script src="./main.js"></script>
   </body>
 </html>
