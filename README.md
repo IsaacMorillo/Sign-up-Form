@@ -1,37 +1,37 @@
 # Sign-up Form
 
-Una pequeña práctica frontend para crear una interfaz de registro con estilo temático de mitología clásica y un diseño dividido en dos columnas.
+A small front-end practice for creating a registration interface with a classical mythology theme and a two-column layout.
 
-La página combina HTML semántico, CSS personalizado y una propuesta visual inspirada en la estética de los dioses del Olimpo, con un formulario de registro moderno y validaciones nativas del navegador.
+The page combines semantic HTML, custom CSS, and a visual approach inspired by the aesthetic of the gods of Olympus, with a modern registration form and native browser validation.
 
-## Descripción general
+## Overview
 
-Este proyecto consiste en una página de registro de usuario en la que se muestra una sección visual a la izquierda con una ilustración de fondo y un encabezado que da contexto a la experiencia, mientras que a la derecha se presenta un formulario con campos para datos personales y acceso.
+This project is a user registration page that shows a visual section on the left with a background illustration and a heading that provides context for the experience, while the right side contains the registration form.
 
-El objetivo principal es practicar el maquetado de formularios, la organización de estilos y la creación de interfaces funcionales en HTML y CSS puro.
+The main goal is to practice form layout, style organization, and building functional interfaces using pure HTML and CSS.
 
-## Funcionalidades
+## Features
 
-- Diseño de layout en dos columnas
-- Cabecera visual con imagen de fondo y texto destacado
-- Formulario de registro con campos de:
-  - nombre
-  - apellido
+- Two-column layout design
+- Visual header with background image and highlighted text
+- Registration form with fields for:
+  - first name
+  - last name
   - email
-  - teléfono
-  - contraseña
-  - confirmación de contraseña
-- Validaciones HTML5 como:
+  - phone
+  - password
+  - password confirmation
+- HTML5 validation such as:
   - `required`
   - `minlength`
   - `pattern`
   - `type="email"`
   - `type="tel"`
-- Estilo visual con fuente personalizada basada en un tipo de letra temática
-- Estilos de enfoque y estado inválido para mostrar retroalimentación visual al usuario
-- Reset CSS para homogeneizar el comportamiento del navegador
+- Visual style with a custom font based on a thematic typeface
+- Focus and invalid-state styles to provide visual feedback to the user
+- CSS reset to standardize browser behavior
 
-## Estructura del proyecto
+## Project structure
 
 ```text
 Sign-up-Form/
@@ -44,96 +44,96 @@ Sign-up-Form/
 │   └── Norsebold.otf
 ├── img/
 │   └── mythologyart-ai-generated-8546415_1920.png
-└── (posible script adicional no incluido en este repositorio)
+└── (possible additional script not included in this repository)
 ```
 
-## Archivos principales
+## Main files
 
 ### `index.html`
 
-Aquí se define la estructura principal de la página. En esta vista se incluye:
+This file defines the main structure of the page. The layout includes:
 
-- un contenedor lateral con la imagen de fondo y el texto de bienvenida
-- una zona derecha con información del registro
-- un formulario con varios campos que simulan la creación de una cuenta
-- enlaces para "Log in" y referencias a la imagen original en Pixabay
+- a left-side panel with the background image and welcome text
+- a right-side area with registration information
+- a form with several fields that simulate account creation
+- links for "Log in" and references to the original image on Pixabay
 
-El documento usa un título general: `Sign-up for Olympus` y presenta el concepto de "entrar a Olympus y vivir entre los dioses" como narrativa temática.
+The document uses the title `Sign-up for Olympus` and presents the concept of "entering Olympus and living among the gods" as the thematic narrative.
 
 ### `styles.css`
 
-Este archivo centraliza la apariencia visual del proyecto:
+This file centralizes the visual appearance of the project:
 
-- carga la tipografía personalizada `Norse`
-- define el layout base con `display: flex`
-- configura el ancho de los paneles izquierdo y derecho
-- establece el fondo de la cabecera con la imagen local
-- personaliza los textos, botones, campos y elementos del formulario
-- añade estilos para estados de focus y validación inválida
+- loads the custom `Norse` typography
+- defines the base layout using `display: flex`
+- configures the width of the left and right panels
+- sets the header background with the local image
+- customizes text, buttons, fields, and form elements
+- adds styles for focus and invalid validation states
 
 ### `reset.css`
 
-Se trata de un reset CSS reutilizable para normalizar estilos cross-browser. Entre otras cosas:
+This is a reusable CSS reset for normalizing cross-browser styling. Among other things, it:
 
-- ajusta `box-sizing`
-- elimina márgenes predeterminados
-- mejora la forma en que se renderizan imágenes y elementos multimedia
-- conserva la herencia de tipografías en inputs, botones y selects
-- mejora el comportamiento de `line-height` y suavizado de texto
+- adjusts `box-sizing`
+- removes default margins
+- improves how images and media elements are rendered
+- preserves font inheritance in inputs, buttons, and selects
+- improves `line-height` and text smoothing behavior
 
 ### `fonts/`
 
-Contiene las fuentes personalizadas utilizadas en la interfaz para reforzar el estilo mitológico del proyecto.
+Contains the custom fonts used in the interface to reinforce the mythological style of the project.
 
 ### `img/`
 
-Incluye la imagen de fondo principal que se usa en la sección izquierda del diseño.
+Includes the main background image used in the left section of the design.
 
-## Cómo usarlo
+## How to use it
 
-1. Clona este repositorio.
-2. Abre el archivo `index.html` en tu navegador.
-3. Asegúrate de que la estructura de carpetas se mantenga intacta para que los assets (`fonts/` e `img/`) se carguen correctamente.
+1. Clone this repository.
+2. Open the `index.html` file in your browser.
+3. Make sure the folder structure remains intact so the assets (`fonts/` and `img/`) load correctly.
 
-Ejemplo:
+Example:
 
 ```bash
 git clone https://github.com/IsaacMorillo/Sign-up-Form.git
 cd Sign-up-Form
 ```
 
-Luego abre `index.html` directamente o usa un servidor local si prefieres evitar restricciones del navegador.
+Then open `index.html` directly or use a local server if you prefer to avoid browser restrictions.
 
-## Tecnologías utilizadas
+## Technologies used
 
 - HTML5
 - CSS3
 - CSS reset
-- Fuentes locales (`.otf`)
-- Diseño responsive básico con enfoque de práctica front-end
+- Local font files (`.otf`)
+- Basic responsive design with a front-end practice focus
 
-## Observaciones
+## Notes
 
-Este proyecto es una práctica de maquetación y diseño UI, no una aplicación con backend funcional. Los formularios están preparados para ser extendidos con validación adicional o integración con un servidor más adelante.
+This project is a UI and layout practice exercise, not a functional application with a backend. The forms are prepared to be extended with additional validation or integration in the future.
 
-La estructura es ligera, clara y fácil de entender, ideal para aprender conceptos como:
+The structure is light, clear, and easy to understand, making it ideal for learning concepts such as:
 
-- diseño de páginas web
-- estructura semántica de formularios
-- uso de CSS para layout y estética
-- validación básica con HTML
-- gestión de assets e imágenes locales
+- web page design
+- semantic structure of forms
+- CSS for layout and aesthetics
+- basic validation with HTML
+- management of local assets and images
 
-## Licencia
+## License
 
-Este repositorio no incluye una licencia explícita en el archivo actual. Si vas a reutilizarlo o compartirlo, revisa la configuración del repositorio o añade una licencia adecuada según tu caso de uso.
+This repository does not currently include an explicit license file. If you plan to reuse or share it, review the repository settings or add an appropriate license based on your needs.
 
-## Autor
+## Author
 
-Proyecto desarrollado por Isaac Morillo.
+Project developed by Isaac Morillo.
 
-## Conclusión
+## Conclusion
 
-`Sign-up Form` es un ejercicio visual y estructural para practicar la creación de una página de registro con estética temática. Combina maquetación, tipografías personalizadas, validaciones nativas y un diseño atractivo que permite reforzar conocimientos básicos de frontend.
+`Sign-up Form` is a visual and structural exercise for practicing the creation of a themed registration page. It combines layout design, custom typography, native validation, and modern UI styling in a compact educational project.
 
-Si quieres, puedo continuar con una segunda versión del README más profesional para GitHub, con badges, capturas de pantalla, secciones de "Demo" y "Tecnologías" y un tono más pulido para presentación pública.
+If you want, I can also create a second version of the README with a more professional GitHub presentation, including badges, screenshots, a Demo section, and a cleaner tone for showcasing the project.
