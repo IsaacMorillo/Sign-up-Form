@@ -81,29 +81,6 @@ This is a reusable CSS reset for normalizing cross-browser styling. Among other 
 - preserves font inheritance in inputs, buttons, and selects
 - improves `line-height` and text smoothing behavior
 
-### `fonts/`
-
-Contains the custom fonts used in the interface to reinforce the mythological style of the project.
-
-### `img/`
-
-Includes the main background image used in the left section of the design.
-
-## How to use it
-
-1. Clone this repository.
-2. Open the `index.html` file in your browser.
-3. Make sure the folder structure remains intact so the assets (`fonts/` and `img/`) load correctly.
-
-Example:
-
-```bash
-git clone https://github.com/IsaacMorillo/Sign-up-Form.git
-cd Sign-up-Form
-```
-
-Then open `index.html` directly or use a local server if you prefer to avoid browser restrictions.
-
 ## Technologies used
 
 - HTML5
@@ -132,8 +109,4 @@ This repository does not currently include an explicit license file. If you plan
 
 Project developed by Isaac Morillo.
 
-## Conclusion
 
-`Sign-up Form` is a visual and structural exercise for practicing the creation of a themed registration page. It combines layout design, custom typography, native validation, and modern UI styling in a compact educational project.
-
-If you want, I can also create a second version of the README with a more professional GitHub presentation, including badges, screenshots, a Demo section, and a cleaner tone for showcasing the project.
